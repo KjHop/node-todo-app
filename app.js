@@ -5,7 +5,7 @@ const app = express();
 //Set template engine
 app.set('view engine', 'ejs');
 //Static files
-app.use('/assets', express.static('../public'));
+app.use(express.static('./public'));
 //Start controllers
 todoController(app);
 //Listen to port
