@@ -33,6 +33,6 @@ $(document).ready(function(){
 
 });
 
-function reload(){
+let reload = ()=>{
   location.reload();
 }

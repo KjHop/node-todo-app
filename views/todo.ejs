@@ -11,11 +11,11 @@
         <div id='todo-table'>
             <form>
                 <input type='text' name='item' placeholder="Add new item..." required/>
-                <button type="submit" onclick="reload()">Add Item</button>
+                <button type="submit">Add Item</button>
             </form>
             <ul>
                 <% todos.forEach(item=>{ %>
-                    <li onclick="reload()"><%= item.item %></li>
+                    <li><%= item.item %></li>
                 <% }); %>
             </ul>
         </div>
