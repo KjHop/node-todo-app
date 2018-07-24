@@ -1,0 +1,28 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "todo app in node",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "start test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KjHop/node-todo-app.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "KjHop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KjHop/node-todo-app/issues"
+  },
+  "homepage": "https://github.com/KjHop/node-todo-app#readme"
+}
